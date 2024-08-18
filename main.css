@@ -20,7 +20,6 @@
     display: flex;
     justify-content: flex-start;
     gap: 2px; /* ボックス間の間隔を設定 */
-    margin-bottom: 5px;
    }
    .f5{
     clear:both;
@@ -44,7 +43,7 @@
 
 .box p {
     margin: 0; /* テキストの外側余白を削除 */
-    line-height: 140px;
+    line-height: 20px;
     vertical-align: middle;
     font-size: 10px;
     font-weight: bold;
