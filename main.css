@@ -20,6 +20,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 2px; /* ボックス間の間隔を設定 */
+    margin-bottom: 5px;
    }
    .f5{
     clear:both;
