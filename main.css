@@ -45,7 +45,7 @@
     margin: 0; /* テキストの外側余白を削除 */
     line-height: 140px;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
 }
 .f6{
