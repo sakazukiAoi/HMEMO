@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>心状記録</title>
+    <meta name="sjkr" content="心状記録" />
+
+    <!--<link rel="shortcut icon" href="/img/favicon.ico"> -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <div class="f1">
+        <div id="boxr1" class="box" onclick="changeColor('boxr1', 'red')"></div>
+        <div id="boxr2" class="box" onclick="changeColor('boxr2', 'red')"></div>
+        <div id="boxr3" class="box" onclick="changeColor('boxr3', 'red')"></div>
+        <div id="boxr4" class="box" onclick="changeColor('boxr4', 'red')"></div>
+        <div id="boxr5" class="box" onclick="changeColor('boxr5', 'red')"></div>
+        <div id="boxr6" class="box" onclick="changeColor('boxr6', 'red')"></div>
+        <div id="boxr7" class="box" onclick="changeColor('boxr7', 'red')"></div>
+        <div id="boxr8" class="box" onclick="changeColor('boxr8', 'red')"></div>
+        <div id="boxr9" class="box" onclick="changeColor('boxr9', 'red')"></div>
+        <div id="boxr10" class="box" onclick="changeColor('boxr10', 'red')"></div>
+        <div id="boxr11" class="box" onclick="changeColor('boxr11', 'red')"></div>
+        <div id="boxr12" class="box" onclick="changeColor('boxr12', 'red')"></div>
+    </div>
+    <div class="f2">
+        <div id="boxo1" class="box" onclick="changeColor('boxo1', 'orange')"></div>
+        <div id="boxo2" class="box" onclick="changeColor('boxo2', 'orange')"></div>
+        <div id="boxo3" class="box" onclick="changeColor('boxo3', 'orange')"></div>
+        <div id="boxo4" class="box" onclick="changeColor('boxo4', 'orange')"></div>
+        <div id="boxo5" class="box" onclick="changeColor('boxo5', 'orange')"></div>
+        <div id="boxo6" class="box" onclick="changeColor('boxo6', 'orange')"></div>
+        <div id="boxo7" class="box" onclick="changeColor('boxo7', 'orange')"></div>
+        <div id="boxo8" class="box" onclick="changeColor('boxo8', 'orange')"></div>
+        <div id="boxo9" class="box" onclick="changeColor('boxo9', 'orange')"></div>
+        <div id="boxo10" class="box" onclick="changeColor('boxo10', 'orange')"></div>
+        <div id="boxo11" class="box" onclick="changeColor('boxo11', 'orange')"></div>
+        <div id="boxo12" class="box" onclick="changeColor('boxo12', 'orange')"></div>
+    </div>
+    <div class="f3">
+        <div id="boxg1" class="box" onclick="changeColor('boxg1', 'g')"></div>
+        <div id="boxg2" class="box" onclick="changeColor('boxg2', 'g')"></div>
+        <div id="boxg3" class="box" onclick="changeColor('boxg3', 'g')"></div>
+        <div id="boxg4" class="box" onclick="changeColor('boxg4', 'g')"></div>
+        <div id="boxg5" class="box" onclick="changeColor('boxg5', 'g')"></div>
+        <div id="boxg6" class="box" onclick="changeColor('boxg6', 'g')"></div>
+        <div id="boxg7" class="box" onclick="changeColor('boxg7', 'g')"></div>
+        <div id="boxg8" class="box" onclick="changeColor('boxg8', 'g')"></div>
+        <div id="boxg9" class="box" onclick="changeColor('boxg9', 'g')"></div>
+        <div id="boxg10" class="box" onclick="changeColor('boxg10', 'g')"></div>
+        <div id="boxg11" class="box" onclick="changeColor('boxg11', 'g')"></div>
+        <div id="boxg12" class="box" onclick="changeColor('boxg12', 'g')"></div>
+    </div>
+    <div class="f4">
+        <div id="boxb1" class="box" onclick="changeColor('boxb1', 'b')"></div>
+        <div id="boxb2" class="box" onclick="changeColor('boxb2', 'b')"></div>
+        <div id="boxb3" class="box" onclick="changeColor('boxb3', 'b')"></div>
+        <div id="boxb4" class="box" onclick="changeColor('boxb4', 'b')"></div>
+        <div id="boxb5" class="box" onclick="changeColor('boxb5', 'b')"></div>
+        <div id="boxb6" class="box" onclick="changeColor('boxb6', 'b')"></div>
+        <div id="boxb7" class="box" onclick="changeColor('boxb7', 'b')"></div>
+        <div id="boxb8" class="box" onclick="changeColor('boxb8', 'b')"></div>
+        <div id="boxb9" class="box" onclick="changeColor('boxb9', 'b')"></div>
+        <div id="boxb10" class="box" onclick="changeColor('boxb10', 'b')"></div>
+        <div id="boxb11" class="box" onclick="changeColor('boxb11', 'b')"></div>
+        <div id="boxb12" class="box" onclick="changeColor('boxb12', 'b')"></div>
+    </div>
+    <div class="f5">
+        <script>//今日の日付データを変数に格納
+            //変数は"today"とする
+            var today=new Date(); 
+            
+            //年・月・日・曜日を取得
+            var year = today.getFullYear();
+            var month = today.getMonth()+1;
+            var week = today.getDay();
+            var day = today.getDate();
+            
+            var week_ja= new Array("日","月","火","水","木","金","土");
+            
+            //年・月・日・曜日を書き出す
+            document.write(year+"年"+month+"月"+day+"日 "+week_ja[week]+"曜日");</script>
+        </div>
+    <script src="button.js"></script>
+ 
+  </body>
+</html>
