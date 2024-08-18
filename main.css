@@ -43,9 +43,9 @@
 
 .box p {
     margin: 0; /* テキストの外側余白を削除 */
-    line-height: 20px;
+    line-height: 10px;
     vertical-align: middle;
-    font-size: 10px;
+    font-size: 5px;
     font-weight: bold;
 }
 .f6{
