@@ -22,23 +22,35 @@
     gap: 2px; /* ボックス間の間隔を設定 */
    }
    .f5{
-    text-align: center; /* インライン要素の中央揃え */
+    clear:both;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px; /* ボックス間の間隔を設定 */
    }
+
    .box {
 
     float: left;
     width: 140px;
     height: 40px;
     cursor: pointer;
+    display: flex;
     background-color: #c0c0c0;
+    justify-content: center; /* テキストを水平中央揃え */
+    align-items: center; /* テキストを垂直中央揃え */
+    text-align: center; /* テキストの中央揃え */
 }
 
 .box p {
+    margin: 0; /* テキストの外側余白を削除 */
     line-height: 140px;
     vertical-align: middle;
     font-size: 20px;
     font-weight: bold;
 }
+.f6{
+    text-align: center; /* テキストの中央揃え */
+   }
 
 .red {
     background-color: #f0362f;
@@ -52,6 +64,9 @@
 }
 .b {
     background-color: #84d4ec;
+}
+.n {
+    background-color: #c0c0c0;
 }
 /*
     #box2{
