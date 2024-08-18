@@ -32,7 +32,7 @@
 
     float: left;
     width: 140px;
-    height: 40px;
+    height: 30px;
     cursor: pointer;
     display: flex;
     background-color: #c0c0c0;
@@ -45,7 +45,7 @@
     margin: 0; /* テキストの外側余白を削除 */
     line-height: 10px;
     vertical-align: middle;
-    font-size: 5px;
+    font-size: 7px;
     font-weight: bold;
 }
 .f6{
