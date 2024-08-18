@@ -1,0 +1,104 @@
+.f1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px; /* ボックス間の間隔を設定 */
+}
+   .f2{
+    clear:both;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px; /* ボックス間の間隔を設定 */
+   }
+   .f3{
+    clear:both;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px; /* ボックス間の間隔を設定 */
+   }
+   .f4{
+    clear:both;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px; /* ボックス間の間隔を設定 */
+   }
+   .f5{
+    text-align: center; /* インライン要素の中央揃え */
+   }
+   .box {
+
+    float: left;
+    width: 140px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #c0c0c0;
+}
+
+.box p {
+    line-height: 140px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.red {
+    background-color: #f0362f;
+}
+
+.orange {
+    background-color: #FF8C00;
+}
+.g {
+    background-color: #54d465;
+}
+.b {
+    background-color: #84d4ec;
+}
+/*
+    #box2{
+        float:left;
+        width: 140px;
+        height: 140px;
+        cursor: pointer;
+        background-color:#c0c0c0;
+        }
+        #box2.orange{
+        background-color: #FF8C00;
+        }
+        #box2 p{
+        line-height: 140px;
+        vertical-align: middle;
+        font-size: 20px;
+        font-weight:bold;
+        }
+    #box3{
+        float:left;
+            width: 140px;
+            height: 140px;
+            cursor: pointer;
+            background-color:#c0c0c0;
+    }
+    #box3.gr{
+            background-color: #3cbe63;
+    }
+    #box3 p{
+            line-height: 140px;
+            vertical-align: middle;
+            font-size: 20px;
+            font-weight:bold;
+    }
+    #box4{
+        float:left;
+                width: 140px;
+                height: 140px;
+                cursor: pointer;
+                background-color:#c0c0c0;
+    }
+    #box4.lb{
+                background-color: #2fa3f0;
+    }
+    #box4 p{
+                line-height: 140px;
+                vertical-align: middle;
+                font-size: 20px;
+                font-weight:bold;
+    }*/
